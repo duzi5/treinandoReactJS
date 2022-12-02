@@ -16,6 +16,8 @@ const UseState = (props) => {
             />
             <SectionTitle title="Exercício 01"/>
             <SectionTitle title="Exercício 02"/>
+            <SectionTitle title="Exercício 03"/>
+
         </div>
 
     )
