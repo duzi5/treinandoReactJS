@@ -1,0 +1,33 @@
+.btn{
+    display: flex;
+    width: 100%pc;
+    flex-grow: 1;
+    flex-basis: 100px;
+    margin-top: 20px;
+    padding : 10%;
+    font-family: 'Bebas Neue'; 
+    font-size: 1.7rem;
+
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(72, 72, 70);
+
+}
+   
+.btn:hover{ 
+    color: white;
+}
+.menu{ 
+    flex-wrap: wrap;
+    min-width: 150px;
+    background-color:rgb(0, 0, 0);
+}
+.ativo{ 
+    background-color: aliceblue;
+    color: rgb(32, 27, 66);
+    border: 3px solid #eee;
+}
+
+h1:hover, p:hover{ 
+    color: white;
+}

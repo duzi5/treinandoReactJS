@@ -1,0 +1,17 @@
+.botao{ 
+    width: 100%;
+    height: 100%;
+    border: 2px solid firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "mono";
+    font-weight: 200;
+    font-size: 1.8rem;
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.botao:hover{ 
+    background-color: antiquewhite;
+}

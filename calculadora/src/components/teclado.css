@@ -1,0 +1,16 @@
+.teclado{ 
+    width: 100%;
+    height: 60%;
+    margin: 20px; 
+    border: 3px solid black;
+    display: grid;
+    grid-template: 
+        "ac ac ac divisao" 1fr
+        "sete oito nove vezes" 1fr
+        "quatro cinco seis menos" 1fr
+        "um dois tres mais" 1fr
+        "zero zero virgula igual" 1fr
+    ;   
+
+
+}

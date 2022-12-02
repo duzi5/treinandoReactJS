@@ -1,0 +1,19 @@
+.calculator{ 
+    display:flex;
+    width:300px;
+    height: 450px;
+    border: solid 3px black;
+    background-color: hsla(34, 78%, 91%, 0.162);
+    align-items: flex-start;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+body{ 
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
