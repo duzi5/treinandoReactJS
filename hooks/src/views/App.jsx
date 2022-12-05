@@ -9,12 +9,12 @@ const App = props => {
 
     return (    
             <Store>            
-                
-                <Router>
-                    <Menu />
-                    <Content />
-                </Router>
-            
+                <div className="App">
+                    <Router>
+                        <Menu />
+                        <Content />
+                    </Router>
+                </div>
             </Store>
     )
 }
