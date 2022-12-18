@@ -1,0 +1,33 @@
+.Card{ 
+    flex: 1;
+    background-color: rgb(46, 180, 111);
+    flex-direction: column;
+    color: aliceblue;
+    margin: 5px;
+    padding: 30px;
+
+}
+
+.Card .Header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+    background-color: rgb(106, 215, 131);
+}
+
+.Card .Header .Title{
+    padding: 5px;
+    flex: 1;
+    background-color: brown;
+    padding: 5px;
+    flex: 1;
+    background-color: brown;
+    
+}
+
+.Card .Content { 
+    padding: 20px;
+
+}
