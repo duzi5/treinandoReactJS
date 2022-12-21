@@ -1,0 +1,10 @@
+.Card{ 
+    background-color: blue;
+    color: aliceblue;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border: wheat solid 15px;
+    padding: 20px;
+
+}
