@@ -23,7 +23,7 @@ function mapStateToProps(state){
 }
 
 function mapActionCreatorsToProp(dispatch){
-    alterarminimo(novoNumero){
+    function alterarminimo(novoNumero){
         const action = alterarMinimo(novoNumero)
         dispatch(action)
     }

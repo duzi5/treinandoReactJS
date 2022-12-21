@@ -1,13 +1,13 @@
 
 export function alterarMinimo(novoNumero){
     return {
-        type: 'NUM_MIN_ALTERADO',
+        type: 'ALTERA_MINIMO',
         payload: novoNumero
     }
 }
 export function alterarMaximo(novoNumero){
     return {
-        type: 'NUM_MAX_ALTERADO',
+        type: 'ALTERA_MAXIMO',
         payload: novoNumero
     }
 }
