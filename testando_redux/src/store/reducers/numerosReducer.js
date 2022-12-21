@@ -8,7 +8,7 @@ function NumerosReducer(state, action){
         case "ALTERA_MAXIMO":
             return{
                 ...state,
-                min : action.payload
+                max : action.payload
             }    
     }
 }
