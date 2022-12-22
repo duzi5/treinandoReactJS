@@ -19,4 +19,3 @@ export function mudaNumeroMaximo (novoNumero) {
 }
 
 
-const store = createStore({Reducer: Reducers})

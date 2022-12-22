@@ -16,7 +16,7 @@ function Numeros(props){
 }
 
 
-function setStateToProps(state){
+function mapStateToProps(state){
     return{
         min: state.numeros.min,
         max: state.numeros.max
@@ -30,4 +30,4 @@ function setStateToProps(state){
 
 
 
-export default connect(setStateToProps)(Numeros)
+export default connect(mapStateToProps)(Numeros)

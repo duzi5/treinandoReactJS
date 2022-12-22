@@ -1,18 +1,18 @@
-
-
-import Reducers from "./reducers/numeros";
-import { createStore } from 'redux';
-
+import {createStore, combineReducers} from 'redux'
+import numerosReducers from "./reducers/numeros";
 
 
 
 
 
-
-
-
-export default createStore({
-    reducer:{ 
-        numeros : Reducers 
-    }
+const reducers = combineReducers({
+    numeros: numerosReducers
 })
+
+function StoreConfig(){
+    return createStore(reducers)
+}
+
+
+
+export default StoreConfig

@@ -32,15 +32,15 @@ function Inputs(props) {
 }
 
 function mapDispatchToProps(dispatch) {
-  function altera_min(novoNumero) {
-    const action = mudaNumeroMinimo(novoNumero);
-    dispatch(action);
+    function altera_min(novoNumero) {
+      const action = mudaNumeroMinimo(novoNumero);
+      dispatch(action);
+    }
+    function altera_max(novoNumero) {
+      const action = mudaNumeroMaximo(novoNumero);
+      dispatch(action);
+    }
   }
-  function altera_max(novoNumero) {
-    const action = mudaNumeroMaximo(novoNumero);
-    dispatch(action);
-  }
-}
 
 function mapStateToProps(state) {
   return {
